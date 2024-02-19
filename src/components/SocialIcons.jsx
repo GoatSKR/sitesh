@@ -15,34 +15,34 @@ const SocialIcons = () => {
       <ul className="list-none p-2 m-0">
         {socialprofils.twitter && (
           <li className="block mb-5">
-            <a href={socialprofils.twitter}>
-              <FaXTwitter className="w-6 h-6 text-gray-700" />
+            <a href={socialprofils.twitter} target="_blank">
+              <FaXTwitter className="w-4 h-4 md:w-6 md:h-6 text-gray-700" />
             </a>
           </li>
         )}
         {socialprofils.github && (
           <li className="block mb-5">
-            <a href={socialprofils.github}>
-              <FaGithub className="w-6 h-6 text-gray-700" />
+            <a href={socialprofils.github} target="_blank">
+              <FaGithub className="w-4 h-4 md:w-6 md:h-6 text-gray-700" />
             </a>
           </li>
         )}
         {socialprofils.linkedin && (
           <li className="block mb-5">
-            <a href={socialprofils.linkedin}>
-              <FaLinkedinIn className="w-6 h-6 text-gray-700" />
+            <a href={socialprofils.linkedin} target="_blank">
+              <FaLinkedinIn className="w-4 h-4 md:w-6 md:h-6 text-gray-700" />
             </a>
           </li>
         )}
         {socialprofils.leetcode && (
           <li className="block mb-10">
-            <a href={socialprofils.leetcode}>
-              <SiLeetcode className="w-6 h-6 text-gray-700" />
+            <a href={socialprofils.leetcode} target="_blank">
+              <SiLeetcode className="w-4 h-4 md:w-6 md:h-6 text-gray-700" />
             </a>
           </li>
         )}
       </ul>
-      <p className="absolute top-0 pl-1 left-1 w-20 h-14 text-gray-700 text-xl font-semibold leading-tight whitespace-nowrap transform -rotate-90 origin-top-left">
+      <p className="absolute top-0 pl-1 left-1 w-20 h-14 text-gray-700 text-lg md:text-xl font-semibold leading-tight whitespace-nowrap transform -rotate-90 origin-top-left">
         -- Follow Me 
       </p>
     </div>

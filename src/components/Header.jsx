@@ -7,7 +7,7 @@ function Header() {
     const isContactPage = location.pathname === '/contact';
     const isHomePage = location.pathname === '/';
     const handleDownloadResume = () => {
-        const resumePdfUrl = '/public/static/files/SITESH_1_JAVA.pdf';
+        const resumePdfUrl = 'public/SITESH_1_JAVA.pdf';
         const a = document.createElement('a');
         a.href = resumePdfUrl;
         a.download = 'SITESH_RESUME.pdf'; 
@@ -40,12 +40,12 @@ function Header() {
                 {isHomePage && (
                     <ul className="flex gap-2">
                         <li>
-                            <button onClick={handleDownloadResume} className="text-[#8d8b8b] bg-[#252525] px-4 py-1 bg-opacity-50 hover:text-[#121211] hover:bg-[#b0b1ac] rounded-2xl flex items-center justify-center">
+                            <button onClick={handleDownloadResume} className="text-[#8d8b8b] text-sm md:text-md bg-[#252525] px-4 py-1 bg-opacity-50 hover:text-[#121211] hover:bg-[#b0b1ac] rounded-2xl flex items-center justify-center">
                                 Download Resume
                             </button>
                         </li>
                         <li>
-                            <Link to="/contact" className="text-[#8d8b8b] bg-[#252525] px-4 py-1 bg-opacity-50 hover:text-[#121211] hover:bg-[#b0b1ac] rounded-2xl flex items-center justify-center">
+                            <Link to="/contact" className="text-[#8d8b8b] bg-[#252525] text-sm md:text-md px-4 py-1 bg-opacity-50 hover:text-[#121211] hover:bg-[#b0b1ac] rounded-2xl flex items-center justify-center">
                                 Contact Me
                             </Link>
                         </li>
