@@ -4,9 +4,9 @@ import { FaXTwitter } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 const SocialIcons = () => {
   const socialprofils = {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/GoatSKR",
+    linkedin: "https://www.linkedin.com/in/sitesh-kumar-raulo/",
+    twitter: "https://twitter.com/IAMSiteshR",
     leetcode: "https://leetcode.com/sitesh99kr/",
   };
 
