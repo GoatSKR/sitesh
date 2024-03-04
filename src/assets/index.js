@@ -20,6 +20,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import spring from "./tech/spring.png";
+import java from "./tech/java.png";
+import hibernate from "./tech/hibernate.png";
+import postman from "./tech/postman.png";
+import kafka from "./tech/kafka.png";
+import mysql from "./tech/mysql.png";
+import postgresql from "./tech/postgresql.png";
+import swagger from "./tech/swagger.png";
+import restapi from "./tech/restapi.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,6 +44,15 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  spring,
+  java,
+  hibernate,
+  postman,
+  kafka,
+  mysql,
+  postgresql,
+  swagger,
+  restapi,
   backend,
   creator,
   mobile,

@@ -15,12 +15,21 @@ import {
     git,
     figma,
     docker,
+    java,
     meta,
     starbucks,
+    postman,
+    kafka,
+    mysql,
+    postgresql,
+    swagger,
+    restapi,
     GL,
     DVED,
+    hibernate,
     tesla,
     shopify,
+    spring,
     carrent,
     jobit,
     tripguide,
@@ -63,8 +72,44 @@ import {
   
   const technologies = [
     {
+      name: "Spring",
+      icon: spring,
+    },
+    {
+      name: "JAVA",
+      icon: java,
+    },
+    {
+      name: "POSTMAN",
+      icon: postman,
+    },
+    {
+      name: "KAFKA",
+      icon: kafka,
+    },
+    {
+      name: "MYSQL",
+      icon: mysql,
+    },
+    {
+      name: "POSTGRESQL",
+      icon: postgresql,
+    },
+    {
+      name: "SWAGGER",
+      icon: swagger,
+    },
+    {
+      name: "RESTAPI",
+      icon: restapi,
+    },
+    {
       name: "HTML 5",
       icon: html,
+    },
+    {
+      name: "HIBERNATE",
+      icon: hibernate,
     },
     {
       name: "CSS 3",
@@ -75,16 +120,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -99,16 +136,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -153,27 +182,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Sitesh proved me wrong.",
+      name: "Prakirti Jena",
+      designation: "Associate",
+      company: "Trushna Ventures",
+      image: "https://randomuser.me/api/portraits/lego/5.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Never Sleeps Nocturnal Guy always ready with the results on time!",
+      name: "Nagender Agarwal ",
+      designation: "Master Facilitator",
+      company: "Round Table India",
+      image: "https://randomuser.me/api/portraits/lego/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Made 22 API's in a single Day this guy is a killing streak!",
+      name: "Vamsi Goyal",
+      designation: "Product Manager",
+      company: "Madison Logic",
+      image: "https://randomuser.me/api/portraits/lego/5.jpg",
     },
   ];
   
