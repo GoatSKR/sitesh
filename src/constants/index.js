@@ -71,21 +71,18 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "Spring",
-      icon: spring,
-    },
+   
     {
       name: "JAVA",
       icon: java,
     },
     {
-      name: "POSTMAN",
-      icon: postman,
+      name: "Spring",
+      icon: spring,
     },
     {
-      name: "KAFKA",
-      icon: kafka,
+      name: "POSTMAN",
+      icon: postman,
     },
     {
       name: "MYSQL",
@@ -96,20 +93,8 @@ import {
       icon: postgresql,
     },
     {
-      name: "SWAGGER",
-      icon: swagger,
-    },
-    {
-      name: "RESTAPI",
-      icon: restapi,
-    },
-    {
       name: "HTML 5",
       icon: html,
-    },
-    {
-      name: "HIBERNATE",
-      icon: hibernate,
     },
     {
       name: "CSS 3",
@@ -139,10 +124,7 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
