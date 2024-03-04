@@ -10,7 +10,8 @@ const Tech = () => {
           <BallCanvas icon={technology.icon} />
         </div>
       ))}
-    </div>)
+    </div>
+  )
 }
 
 export default SectionWrapper(Tech, "");
