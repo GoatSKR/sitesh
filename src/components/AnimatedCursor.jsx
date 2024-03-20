@@ -135,7 +135,7 @@ function CursorCore({
       endY.current = clientY
     }, [])
   
-    // Outer Cursor Animation Delay
+    
     const animateOuterCursor = useCallback(
       (time) => {
         if (previousTimeRef.current !== undefined) {
@@ -147,16 +147,16 @@ function CursorCore({
         previousTimeRef.current = time
         requestRef.current = requestAnimationFrame(animateOuterCursor)
       },
-      [requestRef] // eslint-disable-line
+      [requestRef] 
     )
   
-    // RAF for animateOuterCursor
+    
     useEffect(() => {
       requestRef.current = requestAnimationFrame(animateOuterCursor)
       return () => cancelAnimationFrame(requestRef.current)
     }, [animateOuterCursor])
   
-    // Mouse Events State updates
+    
     const onMouseDown = useCallback(() => setIsActive(true), [])
     const onMouseUp = useCallback(() => setIsActive(false), [])
     const onMouseEnterViewport = useCallback(() => setIsVisible(true), [])
@@ -290,10 +290,7 @@ function CursorCore({
     )
   }
   
-  /**
-   * AnimatedCursor
-   * Calls and passes props to CursorCore if not a touch/mobile device.
-   */
+  
   function AnimatedCursor({
     outerStyle,
     innerStyle,

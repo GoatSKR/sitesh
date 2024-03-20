@@ -77,7 +77,7 @@ import {
       icon: java,
     },
     {
-      name: "Spring",
+      name: "Springboot",
       icon: spring,
     },
     {
@@ -117,7 +117,7 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
+      name: "Mongo DB",
       icon: mongodb,
     },
     {
@@ -173,14 +173,14 @@ import {
     {
       testimonial:
         "Never Sleeps Nocturnal Guy always ready with the results on time!",
-      name: "Nagender Agarwal ",
+      name: "Narender Agarwal ",
       designation: "Master Facilitator",
       company: "Round Table India",
       image: "https://randomuser.me/api/portraits/lego/5.jpg",
     },
     {
       testimonial:
-        "Made 22 API's in a single Day this guy is a killing streak!",
+        "Made 5 API's in a single Day this guy is a killing streak!",
       name: "Vamsi Goyal",
       designation: "Product Manager",
       company: "Madison Logic",
