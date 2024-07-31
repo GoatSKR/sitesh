@@ -37,6 +37,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import GL from "./company/GL.png";
 import DVED from "./company/DVED.png";
+import BS from "./company/BS.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -75,6 +76,7 @@ export {
   threejs,
   meta,
   GL,
+  BS,
   DVED,
   shopify,
   starbucks,
