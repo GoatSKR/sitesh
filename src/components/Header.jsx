@@ -7,12 +7,13 @@ function Header() {
     const isContactPage = location.pathname === '/contact';
     const isHomePage = location.pathname === '/';
     const handleDownloadResume = () => {
-        const resumePdfUrl = 'public/SITESH_JAVA_1YR.pdf';
+        const fileId = '1mKBJRCzBq4vVjcuSZBdzH3boeo_TE8NH'; 
+        const resumePdfUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
         const a = document.createElement('a');
         a.href = resumePdfUrl;
         a.download = 'SITESH_RESUME.pdf'; 
         a.click();
-    };
+    }; 
     return (
         <header className="fixed top-0 left-0 right-0 bg-transparent z-50" >
             <nav className="flex justify-center md:justify-between md:items-center py-4 px-8 md:px-16">
