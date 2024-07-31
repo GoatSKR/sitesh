@@ -129,6 +129,23 @@ import {
   
   const experiences = [
     {
+      title: "  Associate Software Engineer",
+      company_name: "Block Stack India Pvt. Ltd.",
+      icon: GL,
+      iconBg: "#383E56",
+      date: "April 2024 - Present",
+      points: [
+        "Developed efficient and scalable Java code, leveraging Springboot framework along with Slf4j logging with Spring AOP for real-time debugging, resulting in a 20% improvement in application performance with precise and faster delivery.",
+        "Thrived in an Ubuntu-based environment showcasing adaptability to deliver impactful results.",
+        "Conducted code reviews, resolving 90% of bugs and enhancing application performance by 15%.",
+        " Implemented an extra feature to the is the creation of secure and role-based authentication endpoints using JWT tokens, bolstering data protection and access control.",
+        " Achieved an on-time delivery rate of 95% by utilizing Agile methodologies and delivering software modules within tight deadlines.",
+        "Implemented the Eureka Server Client module in the new service for effortless discovery, enhancing system transparency with real-time status, port, and IP address information. Facilitated seamless communication between services using Kafka.",
+        "Reduced integration time by 30% through collaboration with teams for seamless integration.",
+        "Improved software quality by decreasing post-release defects by 20% through close collaboration with both lead and QA teams.",
+      ],
+    },
+    {
       title: "Software Engineer",
       company_name: "Globallogic India",
       icon: GL,
