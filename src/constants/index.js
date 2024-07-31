@@ -181,8 +181,8 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Sitesh proved me wrong.",
-      name: "Prakirti Jena",
+        "I thought it was impossible to make a website as beautiful as our product, but Sitesh proved me wrong!",
+      name: "Pratyush Kumar Jena",
       designation: "Associate",
       company: "Trushna Ventures",
       image: "https://randomuser.me/api/portraits/lego/5.jpg",

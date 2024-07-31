@@ -7,7 +7,7 @@ function Header() {
     const isContactPage = location.pathname === '/contact';
     const isHomePage = location.pathname === '/';
     const handleDownloadResume = () => {
-        const resumePdfUrl = 'https://drive.google.com/file/d/17voerIApMwi5MIjgsWbPdmVvohPv9Q5C/view?usp=sharing';
+        const resumePdfUrl = 'public/SITESH_JAVA_1YR.pdf';
         const a = document.createElement('a');
         a.href = resumePdfUrl;
         a.download = 'SITESH_RESUME.pdf'; 
