@@ -20,7 +20,7 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450,
           }}
-          className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+          className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[180px] flex justify-evenly items-center flex-col'
         >
           <img
             src={icon}
@@ -49,21 +49,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Software Developer with 1+ Years of Working Experience in Core
-        and Advanced Java, RDBMS, and Springboot. Proven communicator,
-        committed to surpassing project goals and client expectations.
-        Enhanced efficiency and elevated customer experiences, driving
-        a 15% conversion rate increase. Successfully delivered projects
-        that included payment gateways, email services, and several
-        CRUD-based add-on features to the project leveraging Springboot,
-        microservices, and Java frameworks. Proficient in front-end
-        development technologies including HTML, CSS, React, and
-        Tailwind CSS. Additionally, skilled in content writing and
-        video editing, bringing a diverse range of capabilities to
-        deliver comprehensive solutions.  I'm a quick learner and
-        collaborate closely with clients to create efficient, scalable,
-        and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        With over 1.9 years of hands-on experience in Core/Advanced Java, Golang, Python, Spring Boot, and RDBMS, I specialize in crafting high-performance backend services that drive efficiency and scalability. From developing robust API gateways and secure email services to implementing cutting-edge security solutions, I bring a track record of success in delivering reliable, scalable, and secure systems. My ability to write optimized code has consistently enhanced system performance by up to 30%, while my innovative solutions have boosted conversion rates by 15%. Passionate about clean, efficient, and future-ready code, I thrive on building solutions that empower businesses to grow. Ready to transform your vision into reality? Let’s build something extraordinary together!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
