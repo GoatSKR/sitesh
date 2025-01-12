@@ -61,6 +61,9 @@ const Navbar = () => {
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
             <a target="_blank" href="https://drive.google.com/file/d/1IaDMHfQDJcTqZaONUIq0913SiixgnY4M/view?usp=sharing" download>Resume</a>
           </li>
+          <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <a target="_blank" href="https://github.com/GoatSKR" download>Github</a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +94,9 @@ const Navbar = () => {
               ))}
               <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
                 <a target="_blank" href="https://drive.google.com/file/d/1IaDMHfQDJcTqZaONUIq0913SiixgnY4M/view?usp=sharing" download>Resume</a>
+              </li>
+              <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+                <a target="_blank" href="https://github.com/GoatSKR" download>Github</a>
               </li>
             </ul>
           </div>

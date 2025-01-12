@@ -58,7 +58,11 @@ import {
       icon: web,
     },
     {
-      title: "Frontend Developer",
+      title: "Go Backend Developer",
+      icon: web,
+    },
+    {
+      title: "React js Developer",
       icon: mobile,
     },
     {
@@ -66,8 +70,16 @@ import {
       icon: backend,
     },
     {
-      title: "Content Writer",
+      title: "Content/Copy Writer",
       icon: creator,
+    },
+    {
+      title: "Social media Manager",
+      icon: web,
+    },
+    {
+      title: "Script Writer",
+      icon: backend,
     },
   ];
   
@@ -130,20 +142,48 @@ import {
   
   const experiences = [
     {
-      title: "  Associate Software Engineer",
+      title: "Associate Software Engineer",
       company_name: "Block Stack India Pvt. Ltd.",
       icon: BS,
       iconBg: "#383E56",
       date: "April 2024 - Present",
       points: [
-        "Implemented micorservices architecture, transitioning from monolithic design. Used spring gateway with validation filters, circuit breakers and rate limiters.",
-        "Integrated spring security with JWT for API security along OAuth for Google and Apple ID for authentication and authorization",
-        "Designed and implemented Web socket-based instant notification system for web and push notification system for app. Integrated email service for other notifications.",
-        " Achieved an on-time delivery rate of 95% by utilizing Agile methodologies and delivering software modules within tight deadlines.",
-        "Implemented the Eureka Server Client module in the new service for effortless discovery, enhancing system transparency with real-time status, port, and IP address information. Facilitated seamless communication between services using Kafka.",
-        "Implemented feature for dynamic PDF generation, data conversion and manipulation feature, Integrated Redis for faster search response, CSRF token storage and OTP generation and validation",
-        "Collaborated with teams for successful feature integration and recommending new technologies for application enhancement",
-      ],
+        {
+          heading: "Blockchain staking platform",
+          bullets: [
+            "Led end-to-end development of secure APIs for blockchain transactions using Golang's Fiber framework and Diamante SDK",
+            "Implemented JWT and Redis for fast and secure data handling."
+          ]
+        },
+        {
+          heading: "Games Backend",
+          bullets: [
+            "Developed high-performance backend logic using Go’s Gin framework, supporting various games.",
+            "Ensured scalability and low-latency interactions for smooth gaming experiences.",
+            "Implemented game-specific business logic and secured data against manipulation and hacking.",
+            "Optimized code by 70% to handle 5000 TPS in a sandbox environment."
+          ]
+        },
+        {
+          heading: "Visitor Management System (VMS)",
+          bullets: [
+            "Designed and deployed the entire VMS project with secure file processing using Amazon S3 buckets.",
+            "Focused on backend logic, database design, and JWT-based security for file handling.",
+            "Reduced external service response times by 20% and minimized data loss risks by 95%.",
+            "Integrated APIs and built robust authentication mechanisms for seamless operations."
+          ]
+        },
+        {
+          heading: "CRM",
+          bullets: [
+            "Transitioned a monolithic architecture into microservices using Spring Gateway for improved scalability.",
+            "Enhanced security by 50% with Spring Security, JWT, and OAuth integration.",
+            "Developed WebSocket-based notification systems, improving notification speed by 35%.",
+            "Integrated dynamic template based email services for notifications, enhancing user engagement by 20%.",
+            "Implemented dynamic PDF generation and collaborated on technology upgrades for better performance."
+          ]
+        }
+      ]
     },
     {
       title: "Software Engineer",
