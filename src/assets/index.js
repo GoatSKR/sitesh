@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import spring from "./tech/spring.png";
 import java from "./tech/java.png";
+import go from "./tech/Go.png";
 import hibernate from "./tech/hibernate.png";
 import postman from "./tech/postman.png";
 import kafka from "./tech/kafka.png";
@@ -47,6 +48,7 @@ export {
   logo,
   spring,
   java,
+  go,
   hibernate,
   postman,
   kafka,

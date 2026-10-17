@@ -16,6 +16,7 @@ import {
     figma,
     docker,
     java,
+    go,
     meta,
     starbucks,
     postman,
@@ -86,6 +87,10 @@ import {
   const technologies = [
    
     {
+      name: "Go",
+      icon: go,
+    },
+    {
       name: "JAVA",
       icon: java,
     },
@@ -142,11 +147,40 @@ import {
   
   const experiences = [
     {
+      title: "Senior Software Engineer",
+      company_name: "Block Stack India Pvt. Ltd.",
+      icon: BS,
+      iconBg: "#383E56",
+      date: "April 2026 - Sept 2026",
+      points: [
+        {
+          heading: "Crypto Exchange Platform",
+          bullets: [
+            "Designed the complete backend architecture of a Binance-style centralized exchange, built as Go microservices communicating over Kafka and gRPC/Protobuf, with Redis, MongoDB and PostgreSQL",
+            "Designed the Core Matching Engine system for handling orders upto 15000 TPS.",
+            "Designed and built the spot order-matching engine, along with margin logic and advanced order types such as OCO, TP/SL, IceBerg and TWAP",
+            "Made the platform consistent and reliable by moving all services onto a single canonical price source in Redis and shortening the Kafka path for order-status updates",
+            "Added safeguards such as slippage protection, per-user limits and liquidity-aware order sizing to keep automated trading safe",
+            "Guided deployment design, running the matching engine as one isolated instance per symbol with a single pipeline rolling changes out to all of them"
+          ]
+        },
+        {
+          heading: "Diam Quest (1 BTC Giveaway Game)",
+          bullets: [
+            "Designed the complete backend for Diam Quest, a quest-style game built around a 1 BTC giveaway",
+            "Built the orchestration engine that drives the quest flow, managing game progression and the rules behind each stage",
+            "Built the backend in Go, with APIs designed to stay fast and reliable while many players were active at once",
+            "Handled the logic that keeps outcomes fair and verifiable, which matters when a real prize is at stake"
+          ]
+        }
+      ]
+    },
+    {
       title: "Associate Software Engineer",
       company_name: "Block Stack India Pvt. Ltd.",
       icon: BS,
       iconBg: "#383E56",
-      date: "April 2024 - Present",
+      date: "April 2024 - March 2026",
       points: [
         {
           heading: "Blockchain staking platform",
@@ -223,7 +257,7 @@ import {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Sitesh proved me wrong!",
       name: "Pratyush Kumar Jena",
-      designation: "Associate",
+      designation: "Founder",
       company: "Trushna Ventures",
       image: "https://randomuser.me/api/portraits/lego/5.jpg",
     },
