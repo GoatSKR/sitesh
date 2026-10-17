@@ -59,7 +59,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
-            <a target="_blank" href="https://drive.google.com/file/d/1IaDMHfQDJcTqZaONUIq0913SiixgnY4M/view?usp=sharing" download>Resume</a>
+            <a target="_blank" href="https://drive.google.com/file/d/1ajlROankDZub-STVbQB9JCUM_u8Gd2g2/view?usp=drive_link" download>Resume</a>
           </li>
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
             <a target="_blank" href="https://github.com/GoatSKR" download>Github</a>
