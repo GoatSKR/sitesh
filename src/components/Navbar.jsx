@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -9,18 +10,21 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [pastHero, setPastHero] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(scrollTop > 100);
+
+      // Resume shows only after the hero section has been scrolled past
+      const hero = document.getElementById("hero");
+      const heroEnd = hero ? hero.offsetHeight : window.innerHeight;
+      setPastHero(scrollTop > heroEnd - 100);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // run once so it's correct if the page loads already scrolled
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -43,7 +47,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Sitesh Kumar Raulo &nbsp;
-            <span className='sm:block hidden'> | Fullstack Developer</span>
+            <span className='sm:block hidden'> | Senior Software Engineer</span>
           </p>
         </Link>
 
@@ -58,9 +62,18 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
-            <a target="_blank" href="https://drive.google.com/file/d/1ajlROankDZub-STVbQB9JCUM_u8Gd2g2/view?usp=drive_link" download>Resume</a>
-          </li>
+
+          {pastHero && (
+            <motion.li
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3 }}
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            >
+              <a target="_blank" href="https://drive.google.com/file/d/1-jaF3ElaRE12qrdFLVZ-uIgFLRjpg1q9/view?usp=sharing" download>Resume</a>
+            </motion.li>
+          )}
+
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
             <a target="_blank" href="https://github.com/GoatSKR" download>Github</a>
           </li>
@@ -92,9 +105,13 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
-                <a target="_blank" href="https://drive.google.com/file/d/1IaDMHfQDJcTqZaONUIq0913SiixgnY4M/view?usp=sharing" download>Resume</a>
-              </li>
+
+              {pastHero && (
+                <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+                  <a target="_blank" href="https://drive.google.com/file/d/1IaDMHfQDJcTqZaONUIq0913SiixgnY4M/view?usp=sharing" download>Resume</a>
+                </li>
+              )}
+
               <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
                 <a target="_blank" href="https://github.com/GoatSKR" download>Github</a>
               </li>
